@@ -1,0 +1,19 @@
+* {
+  padding: 0 30px 0 30px;
+}
+.header {
+  align-items: center;
+  position: relative;
+  h2 {
+    color: #555;
+    position: relative;
+    align-items: center;
+  }
+}
+
+.headerImg {
+  object-fit: cover;
+  width: 100%;
+  height: 223px;
+  border-radius: 25px;
+}

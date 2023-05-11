@@ -1,0 +1,19 @@
+$primary: #ff6060;
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+  .link {
+    display: flex;
+    justify-content: space-around;
+    a {
+        padding-right: 20px;
+      text-decoration: none;
+      font-size: 20px;
+      color: $primary;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+.LogementHeader {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+
+.LogementTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  color: #ff6f56;
+
+  .Tags {
+    display: flex;
+  }
+}
+
+.SellerInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  .SellerName {
+    font-weight: 500;
+    width: 100px;
+    text-align: right;
+  }
+  .SellerPicture {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    background-color: black;
+  }
+}
+.SellerStar {
+  display: flex;
+  flex-direction: row;
+}

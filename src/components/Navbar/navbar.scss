@@ -1,18 +1,20 @@
 $primary: #ff6060;
 
 nav {
+  font-family: "Montserrat", sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  padding: 0 100px 40px 100px;
 
   .link {
     display: flex;
     justify-content: space-around;
     a {
-        padding-right: 20px;
+      padding-right: 20px;
       text-decoration: none;
-      font-size: 20px;
+      font-size: 24px;
       color: $primary;
     }
   }

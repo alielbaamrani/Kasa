@@ -1,0 +1,11 @@
+.CardList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 100px 0 100px;
+  padding: 50px;
+  background-color: #f7f7f7;
+  flex-wrap: wrap;
+  border-radius: 25px;
+}

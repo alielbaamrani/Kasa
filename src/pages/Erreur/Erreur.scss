@@ -3,17 +3,18 @@
 }
 
 .App-header-erreur {
-  background-color: #FFF;
+  background-color: #fff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  h1,h2 {
+  h1,
+  h2 {
     padding: 0;
     margin: 0;
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     color: #ff6060;
   }
   h1 {

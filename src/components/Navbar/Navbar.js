@@ -1,13 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import logo from "./Logo.svg";
+import logo from "../../img/Logo.svg";
 import "./navbar.scss";
 
 export default function Navbar() {
   return (
     <nav>
-      <Link to="/">
-        <img className="logo" src={logo} />
+      <Link className="logo" to="/">
+        <img  src={logo} width={"100%"}
+           height={"100%"}
+        />
       </Link>
 
       <div className="link">

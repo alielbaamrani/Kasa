@@ -1,11 +1,43 @@
-.Propos {
-  text-align: center;
+@media (max-width: 375px) {
+  .Propos {
+    padding: 0 25px 0 25px;
+  }
+  .Dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .Collapse-propos {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
-.Dropdown {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-around;
-  height: 40vh;
+@media (min-width: 375px) {
+  .Propos {
+    text-align: center;
+    padding: 0 100px 0 100px;
+  }
+
+  .Dropdown {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  .Collapse-propos {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+  }
 }

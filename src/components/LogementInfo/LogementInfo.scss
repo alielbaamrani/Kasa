@@ -1,38 +1,103 @@
-.LogementHeader {
-  display: flex;
-  justify-content: space-between;
-  padding-bottom: 40px;
-}
-
-.LogementTitle {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  color: #ff6f56;
-
-  .Tags {
+@media (min-width: 375px) {
+  .LogementHeader {
     display: flex;
+    justify-content: space-between;
+    padding: 40px 0 40px 0;
+  }
+
+  .LogementTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #ff6060;
+    h2 {
+      padding: 0 0 10px 0;
+    }
+
+    h3 {
+      padding: 0 0 10px 0;
+    }
+    .Tags {
+      display: flex;
+    }
+  }
+
+  .SellerInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 180px;
+
+    .SellerName {
+      font-weight: 500;
+      width: 100px;
+      text-align: right;
+      color: #ff6060;
+    }
+    .SellerPicture {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      background-color: black;
+    }
+  }
+  .SellerStar {
+    display: flex;
+    flex-direction: row;
   }
 }
 
-.SellerInfo {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+@media (max-width: 375px) {
+  .LogementHeader {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0 20px 0;
+    flex-direction: column;
+  }
 
-  .SellerName {
-    font-weight: 500;
-    width: 100px;
-    text-align: right;
+  .LogementTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    color: #ff6060;
+    h2 {
+      padding: 0 0 10px 0;
+    }
+
+    h3 {
+      padding: 0 0 10px 0;
+    }
+    .Tags {
+      display: flex;
+    }
   }
-  .SellerPicture {
-    width: 64px;
-    height: 64px;
-    border-radius: 50%;
-    background-color: black;
-  }
+.Seller {
+  padding-top: 20px;
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-between;
 }
-.SellerStar {
-  display: flex;
-  flex-direction: row;
+  .SellerInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 180px;
+
+    .SellerName {
+      font-weight: 500;
+      width: 100px;
+      text-align: right;
+      color: #ff6060;
+    }
+    .SellerPicture {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+      background-color: black;
+    }
+  }
+  .SellerStar {
+    display: flex;
+    flex-direction: row;
+  }
 }

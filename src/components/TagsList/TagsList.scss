@@ -1,4 +1,16 @@
-.tagsList {
-display: flex;
-flex-direction: row;
+@media (min-width:375px) {
+    .tagsList {
+        display: flex;
+        flex-direction: row;
+        max-width: 120px;
+        }
 }
+
+@media (max-width:375px) {
+    .tagsList {
+        display: flex;
+        flex-direction: row;
+        max-width: 80px;
+        }
+}
+

@@ -2,7 +2,7 @@ import { useState } from "react";
 import arrowLeft from "../../assets/arrow_left.png";
 import arrowRight from "../../assets/arrow_right.png";
 import React from "react";
-import "./Carrousel.scss"
+import "./Carrousel.scss";
 
 const Carrousel = ({ data }) => {
   const [indexPicture, setIndexPicture] = useState(0);
@@ -42,9 +42,14 @@ const Carrousel = ({ data }) => {
       ) : (
         <></>
       )}
-      <span>
-        {indexPicture + 1}/{data.pictures.length}
-      </span>
+
+      {data.pictures.length !== 1 ? (
+        <span>
+          {indexPicture + 1}/{data.pictures.length}
+        </span>
+      ) : (
+        <></>
+      )}
     </div>
   );
 };

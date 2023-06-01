@@ -1,11 +1,10 @@
-@media (min-width:375px) {
+@media (min-width: 768px) {
   .Erreur {
     text-align: center;
   }
-  
+
   .App-header-erreur {
     background-color: #fff;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,7 +16,6 @@
       color: #ff6060;
     }
     h1 {
-      padding-bottom: 15px;
       font-size: 288px;
       font-weight: 700;
       line-height: 410px;
@@ -27,16 +25,19 @@
       font-weight: 500;
       line-height: 51px;
     }
+    a.backHome {
+      padding-top: 50px;
+      color: #ff6060;
+      text-decoration: underline;
+    }
   }
-  
 }
 
-
-@media (max-width:375px) {
+@media (max-width: 768px) {
   .Erreur {
     text-align: center;
   }
-  
+
   .App-header-erreur {
     background-color: #fff;
     min-height: 100vh;
@@ -62,5 +63,4 @@
       line-height: 51px;
     }
   }
-  
 }

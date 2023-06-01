@@ -1,7 +1,7 @@
 import "./Propos.scss";
 import React from "react";
 import Header from "src/components/Header/Header";
-import image from "./kalen-emsley-Bkci_8qcdvQ-unsplash 2.png";
+import image from "../../assets/kalen-emsley-Bkci_8qcdvQ-unsplash 2.png";
 import Collapse from "src/components/Collapse/Collapse";
 import Footer from "src/components/Footer/Footer";
 
@@ -28,10 +28,9 @@ export default function Propos() {
         <Collapse
           title={"Service"}
           content={
-            "Nos équipes se tiennent à votre disposition pour vous fournir une expérience parfaite. N'hésitez pas à nous contacter si vous avez la moindre question."
+            "Nos équipes se tiennent à votre disposition pour vous fournir une expérience parfaite. N'hésitez pas à nous contacter si vous avez la moindre question.                                       "
           }
         />
-
         <Collapse
           title={"Sécurité"}
           content={

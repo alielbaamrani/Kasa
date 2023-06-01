@@ -1,4 +1,4 @@
-@media (min-width:375px) {
+@media (min-width:768px) {
   .Logement {
     padding: 0 100px 0 100px;
     display: flex;
@@ -9,7 +9,7 @@
   
 }
 
-@media (max-width:375px) {
+@media (max-width:768px) {
   .Logement {
     padding: 0 25px 0 25px;
     display: flex;

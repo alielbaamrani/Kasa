@@ -9,7 +9,6 @@ export default function LogementInfo(findDataById) {
   const description = findDataById.data.description;
   const equipementsList = findDataById.data.equipments;
 
-
   return (
     <div className="LogementInfo">
       <div className="LogementHeader">
@@ -24,7 +23,7 @@ export default function LogementInfo(findDataById) {
             <img className="SellerPicture" src={HostPicture}></img>
           </div>
           <div className="SellerStar">
-            <StarList />
+            <StarList rating={findDataById.data.rating} />
           </div>
         </div>
       </div>

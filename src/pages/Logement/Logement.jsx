@@ -1,4 +1,5 @@
 import "./Logement.scss";
+import Carrousel from "src/components/Carrousel/Carrousel";
 import LogementSlider from "src/components/LogementSlider/LogementSlider";
 import LogementInfo from "src/components/LogementInfo/LogementInfo";
 import Footer from "src/components/Footer/Footer";
@@ -16,7 +17,7 @@ export default function Logement() {
   console.log(findDataById);
   return findDataById ? (
     <div className="Logement">
-      <LogementSlider data={findDataById} />
+       <Carrousel data={findDataById} />
       <LogementInfo data={findDataById} />
       <Footer />
     </div>

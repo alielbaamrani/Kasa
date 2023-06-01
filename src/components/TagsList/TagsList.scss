@@ -1,4 +1,4 @@
-@media (min-width:375px) {
+@media (min-width:768px) {
     .tagsList {
         display: flex;
         flex-direction: row;
@@ -6,7 +6,7 @@
         }
 }
 
-@media (max-width:375px) {
+@media (max-width:768px) {
     .tagsList {
         display: flex;
         flex-direction: row;

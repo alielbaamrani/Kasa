@@ -1,4 +1,6 @@
-# Projet Les Petits Plats - Projet 8 - OpenClassRoom
+# Kasa - Développez une application Web avec React et React Router
+
+Projet Kasa - Projet 8 - OpenClassRoom
 
 
 ## Available Scripts
